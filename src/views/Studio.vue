@@ -30,7 +30,6 @@ export default {};
 
 <style lang="scss" scoped>
 .grid-container {
-  font-family: Roboto, sans-serif;
   height: calc(100% - 100px);
   display: grid;
   grid-template-rows: 1fr;

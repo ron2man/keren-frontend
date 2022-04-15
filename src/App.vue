@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <Header/>
+  <div id="app" class="flex column height100">
+    <Header />
 
     <router-view />
   </div>
@@ -17,7 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
-#app{
-  height: 100%;
+#app {
+  direction: rtl;
+  font-family: var(--primary-font)
 }
 </style>

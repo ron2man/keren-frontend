@@ -135,23 +135,51 @@ table {
     border-spacing: 0;
 }
 
+// VARIABLES
+:root {
+    --primary-font: Roboto, sans-serif;
+}
+
 // HELPERS
 
 html,
-body {
+body,
+#app {
     height: 100%;
 }
 
 .flex {
     display: flex;
+
+    &.column {
+        flex-direction: column;
+    }
+    &.grow1{
+        flex: 1;
+    }
+}
+
+.height100 {
+    height: 100%;
 }
 
 .text-center {
     text-align: center;
 }
 
-.main-layout {
- max-width: 1170px;
- margin: 0 auto;
+.page {
+    padding: 0 15px;
+    margin: 0 auto;
 
+    @media (min-width: 768px) {
+        width: 750px;
+    }
+
+    @media (min-width: 992px) {
+        width: 970px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 1170px;
+    }
 }

@@ -48,7 +48,6 @@ export default {
 header {
   width: 100%;
   background: white;
-  position: fixed;
   z-index: 3;
   display: flex;
   flex-direction: column;
@@ -63,7 +62,6 @@ header {
     }
     .title {
       user-select: none;
-      font-family: Roboto, sans-serif;
       font-size: 16x;
       line-height: 18px;
       letter-spacing: 4px;
@@ -111,7 +109,6 @@ header {
   @media only screen and (min-width: 600px) {
     flex-direction: row;
     width: unset;
-    position: relative;
   }
 }
 </style>

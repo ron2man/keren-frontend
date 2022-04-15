@@ -7,14 +7,14 @@
     <div class="half right flex">
       <div class="form">
         <div class="content text-center">
-          <h5 class="subtitle" v-if="!emailSent">Hire Me</h5>
-          <h3 class="title" v-if="!emailSent">LET’S START A NEW PROJECT</h3>
+          <h5 class="subtitle" v-if="!emailSent">צרו קשר</h5>
+          <h3 class="title" v-if="!emailSent">בואו נתחיל פרויקט יחד</h3>
           <form @submit="sendForm" v-if="!emailSent">
             <div class="form-field">
               <input
                 type="email"
                 v-model="emailData.email"
-                placeholder="Your Email"
+                placeholder="אימייל"
                 data-reqmsg="This field cannot be blank."
                 data-invmsg="Email Address is invalid"
               />
@@ -24,7 +24,7 @@
                 type="text"
                 v-model="emailData.name"
                 value
-                placeholder="Your Name"
+                placeholder="שם מלא"
                 data-reqmsg="This field cannot be blank."
                 data-invmsg="Email Address is invalid"
               />
@@ -34,19 +34,19 @@
                 v-model="emailData.msg"
                 id="field_epfhm2"
                 rows="5"
-                placeholder="Your Message"
+                placeholder="הודעה"
                 data-invmsg="Your Message is invalid"
               ></textarea>
             </div>
             <div class="form-submit">
-              <input type="submit" value="Send" />
+              <input type="submit" value="שלח" />
             </div>
           </form>
           <div class="mail-sent-successfully" v-if="emailSent">
-            <h3 class="title">Thank you for getting in touch!</h3>
+            <h3 class="title">תודה</h3>
             <h5 class="subtitle">
-              We appreciate you contacting kl-architects. One of our colleagues will get back in touch with you soon!<br><br>
-              Have a great day!
+              אני מעריכה שיצרת איתי קשר. אחזור אליך בהקדם <br>
+              יום טוב, קרן
             </h5>
           </div>
         </div>
@@ -110,10 +110,8 @@ export default {
           margin: 0 auto;
           max-width: 560px;
           .subtitle {
-            font-family: Roboto, sans-serif;
             font-size: 14px;
             line-height: 18px;
-            letter-spacing: 3.5px;
             font-weight: 300;
             color: #111;
             padding-top: 15px;
@@ -121,9 +119,7 @@ export default {
           .title {
             margin-top: 15px;
             font-size: 24px;
-            font-family: Roboto, sans-serif;
             font-weight: 700;
-            letter-spacing: 3.5px;
             text-transform: uppercase;
             line-height: 1.35;
             margin-bottom: 15px;
@@ -132,7 +128,7 @@ export default {
           .form-field input,
           .form-field textarea {
             box-sizing: border-box;
-            font-family: "Roboto", sans-serif;
+            font-family: var(--primary-font);
             font-size: 12px;
             line-height: 26px;
             font-weight: 300;
@@ -175,10 +171,8 @@ export default {
             }
           }
           .form-submit {
-            text-align: right;
-            position: relative;
             input {
-              font-family: "Roboto", sans-serif;
+              width: 100%;
               font-size: 11px;
               line-height: 18px;
               letter-spacing: 1.5px;
@@ -187,14 +181,10 @@ export default {
               border: none;
               color: #111111;
               border-radius: 0;
-              padding: 7px 40px 7px 10px;
               -webkit-box-shadow: none;
               box-shadow: none;
               margin: 0;
               position: relative;
-              background-image: url("~@/assets/arrow-btn.png");
-              background-repeat: no-repeat;
-              background-position: 100% 43%;
               -webkit-appearance: button;
               cursor: pointer;
               text-transform: uppercase;
