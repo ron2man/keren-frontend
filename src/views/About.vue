@@ -29,9 +29,7 @@ export default {};
     flex-direction: row;
   }
   &__text {
-    @media (min-width: 768px) {
-      padding-inline-start: 20px;
-    }
+    padding: 30px;
     &__title {
       margin: 10px 0;
       letter-spacing: 0.9px;
@@ -39,21 +37,21 @@ export default {};
       line-height: 44px;
     }
     p {
-      margin-bottom: 14px;
+      margin-bottom: 18px;
       font-size: 16px;
       line-height: 32px;
       font-weight: 400;
     }
   }
   &__image {
-    margin-top: 10px;
+    background-position: center;
     background-image: url("~@/assets/about-kl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
     @media (min-width: 768px) {
+      order: 2;
       height: unset;
-      width: 100%;
       flex: 1;
     }
   }

@@ -137,7 +137,8 @@ table {
 
 // VARIABLES
 :root {
-    --primary-font: Roboto, sans-serif;
+    --primary-font: 'Heebo', sans-serif;
+
 }
 
 // HELPERS
@@ -154,8 +155,19 @@ body,
     &.column {
         flex-direction: column;
     }
-    &.grow1{
+
+    &.grow1 {
         flex: 1;
+    }
+
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+    &.justify-between{
+        justify-content: space-between;
     }
 }
 
@@ -163,23 +175,27 @@ body,
     height: 100%;
 }
 
+.width100{
+    width: 100%;
+}
+
 .text-center {
     text-align: center;
 }
 
 .page {
-    padding: 0 15px;
-    margin: 0 auto;
+    // padding: 0 15px;
+    // margin: 0 auto;
+    width: 100%;
+    // @media (min-width: 768px) {
+    //     width: 750px;
+    // }
 
-    @media (min-width: 768px) {
-        width: 750px;
-    }
+    // @media (min-width: 992px) {
+    //     width: 970px;
+    // }
 
-    @media (min-width: 992px) {
-        width: 970px;
-    }
-
-    @media (min-width: 1200px) {
-        width: 1170px;
-    }
+    // @media (min-width: 1200px) {
+    //     width: 1170px;
+    // }
 }

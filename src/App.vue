@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="flex column height100">
-    <Header />
+    <Header/>
 
     <router-view />
   </div>

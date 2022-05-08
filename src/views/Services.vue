@@ -198,7 +198,7 @@ export default {
         margin-bottom: 15px;
       }
       .a-btn-2 {
-        font-family: "Roboto", sans-serif;
+        font-family: var(--primary-font);
         font-size: 11px;
         line-height: 18px;
         letter-spacing: 2px;
@@ -222,7 +222,7 @@ export default {
   .grid-container {
     margin-top: 50px;
     // height: 100%;
-    font-family: Roboto, sans-serif;
+    font-family: var(--primary-font);
     display: grid;
     display: none;
 
@@ -241,7 +241,7 @@ export default {
         margin-bottom: 15px;
       }
       p {
-        font-family: "Roboto", sans-serif;
+        font-family: var(--primary-font);
         font-size: 16px;
         line-height: 32px;
         font-weight: 400;
@@ -249,7 +249,7 @@ export default {
         margin-bottom: 15px;
       }
       .a-btn-2 {
-        font-family: "Roboto", sans-serif;
+        font-family: var(--primary-font);
         font-size: 11px;
         line-height: 18px;
         letter-spacing: 2px;
