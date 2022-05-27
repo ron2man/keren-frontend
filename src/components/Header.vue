@@ -1,12 +1,13 @@
 <template>
-  <header class="flex justify-between width100">
-    <div class="logo-container flex justify-center align-center" v-on:click="goHome">
+  <header class="flex justify-between width100 align-center">
+    <div class="logo-container flex justify-center align-center pointer" v-on:click="goHome">
       <img class="logo" src="@/assets/keren-leizarovich.png" alt="KL logo" />
       <h1 class="title">
-        קרן לייזרוביץ
+        קרן ליזרוביץ
         <span>אדריכלות ועיצוב פנים</span>
       </h1>
     </div>
+    <Menu class="menu" />
     <div class="icons flex justify-center align-center">
       <div v-for="(icon,index) in icons" :key="index" class="icon-container flex justify-center align-center">
         <a :href="icon.link" target="_blank">
@@ -18,8 +19,11 @@
 </template>
 
 <script>
+import Menu from "@/components/Menu.vue";
+
 export default {
   name: "Header",
+  components: {Menu},
   data: function() {
     return {
       icons: [
@@ -54,8 +58,12 @@ header {
   background: white;
   z-index: 3;
   flex-direction: column;
+  @media only screen and (min-width: 600px) {
+    flex-direction: row;
+    padding: 0 30px;
+    width: unset;
+  }
   .logo-container {
-    cursor: pointer;
     padding: 15px 0;
     .logo {
       max-height: 50px;
@@ -75,20 +83,29 @@ header {
       }
     }
   }
+  .menu {
+    display: none;
+    @media only screen and (min-width: 600px) {
+      display: inherit;
+    }
+  }
   .icons {
     margin-bottom: 10px;
+    @media only screen and (min-width: 600px) {
+      margin: 0;
+    }
     .icon-container {
       transition: 0.3s;
       cursor: pointer;
       margin: 0 10px;
       width: 30px;
       height: 30px;
-      border: 1px black solid;
+      border: 1px grey solid;
       border-radius: 50%;
       a,
       a:active,
       a:visited {
-        color: black;
+        color: grey;
       }
       &:hover {
         background: black;
@@ -99,12 +116,6 @@ header {
         }
       }
     }
-  }
-
-  @media only screen and (min-width: 600px) {
-    flex-direction: row;
-    padding: 0 30px;
-    width: unset;
   }
 }
 </style>

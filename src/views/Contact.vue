@@ -93,6 +93,8 @@ export default {
     box-sizing: border-box;
     height: 100%;
     &.left {
+      //DISPLAY NONE - BECAUSE OF THE MENU
+      display: none;
       background-size: cover;
       background-position-x: 50%;
       background-repeat: no-repeat;
@@ -100,8 +102,10 @@ export default {
     }
     &.right {
       align-items: center;
-      justify-content: center;
       flex-direction: column;
+      @media only screen and (min-width: 600px) {
+        justify-content: center;
+      }
       .form {
         width: 100%;
         padding: 0 10px;
@@ -163,7 +167,7 @@ export default {
             }
           }
           .form-field textarea {
-            height: 80px;
+            height: 130px;
             padding: 16px 25px;
             &:focus,
             :active {
@@ -172,6 +176,7 @@ export default {
           }
           .form-submit {
             input {
+              font-family: var(--primary-font);
               width: 100%;
               font-size: 11px;
               line-height: 18px;
@@ -202,6 +207,7 @@ export default {
     .half {
       flex: 1;
       &.left {
+        display: inherit;
         height: unset;
       }
       &.right {
@@ -210,9 +216,6 @@ export default {
             .title {
               font-size: 40px;
               margin-bottom: 30px;
-            }
-            .form-field textarea {
-              height: 123px;
             }
           }
         }
