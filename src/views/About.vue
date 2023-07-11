@@ -1,15 +1,92 @@
 <template>
-  <div class="about-studio">
-    <HalfTextHalfImage class="full-page top" :title="aboutTitle" :paragraphs="aboutParagraphs" :image="aboutImage"/>
-    <HalfTextHalfImage class="full-page bottom" :title="studioTitle" :paragraphs="studioParagraphs" :image="studioImage"/>
+  <div class="about-studio page flex grow1 column">
+    <div class="image"></div>
+    <div class="text">
+      <h2>אודות</h2>
+      <p>
+        תחילת דרכי היתה אי שם בגיל 5, כשהסתובבתי בתוך בתים שהיו בבנייה ודמיינתי מה יהיה בכל חלל.
+      </p>
+      <p>
+        למדתי את האומנות והעיצוב דרך החיים ואת האדריכלות במוסדות גבוהים ונחשבים, בארץ ובעולם
+      </p><br><br>
+      <p>
+        הנני בוגרת אוניברסיטת הטכניון Technion ובעלת תואר אדריכלית B.Arch לאדריכלות ותכנון ערים.
+      </p>
+      <p>
+        במסגרת לימודיי בטכניון בשל הצטיינות בלימודים, יצאתי ללמוד במילאנו, באחד מבתי הספר הטובים בעולם לעיצוב ואדריכלות, הפוליטכניקו -Politecnico di Milan.
+      </p>
+      <p >
+        מאז אני מגיעה כמעט כל שנה לשבוע העיצוב במילאנו, מתעדכנת בעיצובים והטכנולוגיות החדשניים ביותר בעולם העיצוב והאדריכלות.
+      </p><br><br>
+      <p>אני רואה את עולם האדריכלות כעולם רחב - אומנות, תרבות, ידע, אופנה ועיצוב הם חלק בלתי נפרד ממני ומהתהליך שאני עוברת עם לקוחותיי ובעלי המקצוע איתם אנחנו עובדים</p>
+      <br><br>
+      <p>בהמשך הדרך, זכיתי לקבל תואר מאסטר בתחום הנקרא אדריכלות סינרגית במכללת Pure אדריכלות המבוססת על עקרונות עתיקים מתוך עולם הפאנג שוואי והיכרות עם הלקוחות ובניית מפה אישית.</p>
+
+      <p>בעזרת השיטה אנו מתאימים לכל אדם, זוג, משפחה או עסק את החללים והחומרים המתאימים להם</p>
+      <br><br>
+      <p>
+        אני מייצרת בתים/עסקים מבורכים ותומכים - לקוחותיי מעידים שיש להם תחושה של שלווה, אנרגיה טובה, הצלחה ושפע בתחומים שונים.
+      </p>
+      <div class="break"></div>
+      <h2>אופי הסטודיו ותהליך העבודה</h2>
+      <p>
+        ה"אני מאמין" של הסטודיו, הינו עיצוב טוטאלי לחלל וסביבתו , מרמת הפרט הקטן ועד לחזית הבית, תכנון גינות וחוץ הבית דרך התייחסות לסביבה בה ממוקם הבית / החלל.
+      </p><br>
+      <p>
+        המשרד עובד על מגוון רחב של פרויקטים:
+      </p>
+      <p>
+        תכנון ובניית בתים מאפס, בתי יוקרה, שיפוץ של בתים פרטיים ודירות, עיצוב פנים והום סטיילינג.
+      </p>
+      <p>
+        תכנון ועיצוב מבנים וחללים ציבוריים: משרדים, חללי עבודה שיתופיים , לובאיים, חנויות, מבני ציבור ועוד
+      </p>
+      <p>
+        הקו העיצובי של הסטודיו הינו קווים מודרניים בשילוב אלמנטים מהטבע וחומרים קלאסיים.
+      </p>
+      <p>
+        שילוב בין ישן וחדש, בצורה הרמונית.
+      </p>
+      <p>
+        זאת מתוך אמונה שחלל מצד אחד הוא יצירת מופת מותאמת אישית אך צריכה להשאר על זמנית.
+      </p><br><br>
+      <p>
+        הערך העליון של המשרד , אותו חרטתי על דגלי – הוא האנשים.
+      </p>
+      <p>
+        אשר מתאהבים במקצוע יחד איתי בתהליך.
+      </p>
+      <p>
+        כל תהליך תכנון הוא אינדיבידואלי , חשוב לי להבין את הצרכים והערכים של כל אדם, משפחה או עסק.
+      </p>
+      <p>
+        המשרד מציע ליווי צמוד ומקצועי בכל שלבי התהליך- החל מהתכנון של הפרטים הקטנים ביותר, דרך הבנייה בשטח ועד למסירת המבנה. כל זאת תוך חוויה מהנה וחיבור מעמיק ואישי.
+      </p><br><br>
+      <p>
+        אני רואה כל פרויקט , כאילו הוא הבית , המשרד , או העסק שלי – ועל כן אני משקיעה את מירב כישרוני ומאמציי, בכדי להביא לתוצאה הטובה ביותר מכל ההיבטים ולהביא לידכם את החלל הטוב ביותר לחיות בו
+      </p><br><br>
+      <p>
+        בואו להגשים את החלום שלכם איתי
+      </p><br><br>
+      <p>שלכם,</p>
+      <p>אדריכלית קרן ליזרוביץ</p>
+
+
+    </div>
+
+
+
+
+<!--    <HalfTextHalfImage class="full-page top" :title="aboutTitle" :title2="studioTitle" :paragraphs="aboutParagraphs" :paragraphs2="studioParagraphs"  :image="studioImage"/>-->
+<!--    <HalfTextHalfImage class="full-page bottom" :title="studioTitle" :paragraphs="studioParagraphs" :image="studioImage"/>-->
   </div>
 </template>
 
 <script>
-import HalfTextHalfImage from "@/components/HalfTextHalfImage.vue";
+// import HalfTextHalfImage from "@/components/HalfTextHalfImage.vue";
 export default {
   components: {
-    HalfTextHalfImage
+    // HalfTextHalfImage
   },
   data: function(){
     return {
@@ -40,6 +117,53 @@ export default {
 
 <style lang="scss" scoped>
 .about-studio{
+  display: flex;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  .image{
+    order: 0;
+    background-position: top;
+    background-image: url("~@/assets/about-keren.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    @media (min-width: 768px) {
+      margin: 30px 0 0 30px ;
+      position: sticky;
+      top: 79px;
+      order: 2;
+      height: calc(100vh - 80px);
+      flex: 1;
+    }
+  }
+
+  .text{
+    flex: 1;
+    padding: 15px;
+    @media (min-width: 768px) {
+      padding: 30px;
+    }
+
+    h2{
+      margin-bottom: 10px;
+      letter-spacing: 0.9px;
+      font-size: 40px;
+      line-height: 44px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    .break{
+      margin-bottom: 50px;
+    }
+
+  }
+
+
+
   .full-page {
     @media only screen and (min-width: 600px) {
       &.top{height: calc(100vh - 80px);}

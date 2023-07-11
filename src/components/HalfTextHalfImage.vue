@@ -4,6 +4,8 @@
     <div class="page__text flex grow1 column">
       <h2 class="page__text__title">{{title}}</h2>
       <p v-for="(p,idx) in paragraphs" :key="idx">{{p}}</p>
+      <h2 class="page__text__title">{{title2}}</h2>
+      <p v-for="(p,idx) in paragraphs2" :key="idx">{{p}}</p>
     </div>
   </div>
 </template>
@@ -16,7 +18,14 @@ export default {
       type: String,
       required: true
     },
+    title2: {
+      type: String,
+      required: false
+    },
     paragraphs: {
+      type: Array
+    },
+    paragraphs2: {
       type: Array
     },
     image: {
@@ -48,6 +57,8 @@ export default {
     }
   }
   &__image {
+    position: sticky;
+    top: 0;
     background-position: center;
     //background-image: url("~@/assets/about-kl.jpg");
     background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 <template>
   <ul id="all_slides">
-    <li class="slide" v-for="(slide, idx) in 9" :key=idx :class="{active: activeSlideIdx == idx}"></li>
+    <li class="slide" v-for="(slide, idx) in 13" :key=idx :class="{active: activeSlideIdx == idx}"></li>
   </ul>
 </template>
 
@@ -62,7 +62,7 @@ export default {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-@for $i from 1 through 9 {
+@for $i from 1 through 12 {
   .slide:nth-of-type(#{$i}) {
     background-image: url(~@/assets/background/#{$i}.jpg);
   }

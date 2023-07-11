@@ -39,7 +39,7 @@
               ></textarea>
             </div>
             <div class="form-submit">
-              <input type="submit" value="שלח" />
+              <input type="submit" value="שליחה" />
             </div>
           </form>
           <div class="mail-sent-successfully" v-if="emailSent">
