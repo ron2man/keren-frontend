@@ -10,8 +10,8 @@ export default {
   data: function () {
     return {
       menuItems: [
-        {label: 'פרויקטים', route: '/projects'},
         {label: 'אודות', route: '/about'},
+        {label: 'פרויקטים', route: '/projects'},
         {label: 'צור קשר', route: '/contact'},
       ]
     }

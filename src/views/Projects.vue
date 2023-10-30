@@ -44,27 +44,24 @@ export default {
           ]
         },
         {
-          title: "EL house",
-          subtitle: "בית פרטי בנייה חדשה",
-          description: 'סגנון מודרני טבעי',
-          location: '-עמק חפר-',
-          imgSrc: require("../assets/projects/02-el-house/1.png"),
+          title: "R house",
+          subtitle: 'בית פרטי בנייה חדשה',
+          description: "סגנון מודרני יוקרתי",
+          location: '-הרצליה פיתוח-',
+
+          imgSrc: require("../assets/projects/10-R-house/1.png"),
           galleryItems: [
-            {image: require("../assets/projects/02-el-house/1.png")},
-            {image: require("../assets/projects/02-el-house/2.png")},
-            {image: require("../assets/projects/02-el-house/3.png")},
-            {image: require("../assets/projects/02-el-house/4.png")},
-            {image: require("../assets/projects/02-el-house/5.png")},
-            {image: require("../assets/projects/02-el-house/6.png")},
-            {image: require("../assets/projects/02-el-house/7.png")},
-            {image: require("../assets/projects/02-el-house/8.png")},
-            {image: require("../assets/projects/02-el-house/9.png")},
-            {image: require("../assets/projects/02-el-house/10.png")},
-            {image: require("../assets/projects/02-el-house/11.png")},
-            {image: require("../assets/projects/02-el-house/12.png")},
-            {image: require("../assets/projects/02-el-house/13.png")},
-            {image: require("../assets/projects/02-el-house/14.png")},
-            {image: require("../assets/projects/02-el-house/15.png")},
+            {image: require("../assets/projects/10-R-house/1.png")},
+            {image: require("../assets/projects/10-R-house/2.png")},
+            {image: require("../assets/projects/10-R-house/3.jpg")},
+            {image: require("../assets/projects/10-R-house/4.jpg")},
+            {image: require("../assets/projects/10-R-house/5.png")},
+            {image: require("../assets/projects/10-R-house/6.png")},
+            {image: require("../assets/projects/10-R-house/7.png")},
+            {image: require("../assets/projects/10-R-house/8.jpg")},
+            {image: require("../assets/projects/10-R-house/9.jpg")},
+            {image: require("../assets/projects/10-R-house/11.jpg")},
+            {image: require("../assets/projects/10-R-house/12.jpg")}
           ]
         },
         {
@@ -110,51 +107,35 @@ export default {
           ]
         },
         {
-          title: "Golden Hour",
-          subtitle: "עיצוב פנים דירת 6 חדרים",
-          description: 'דירה על הים עיתוב בהשראת ״שעת הזהב״',
-          location: '-ראשון לציון-',
-          imgSrc: require("../assets/projects/09-golden-hour/1.jpg"),
+          title: "EL house",
+          subtitle: "בית פרטי בנייה חדשה",
+          description: 'סגנון מודרני טבעי',
+          location: '-עמק חפר-',
+          imgSrc: require("../assets/projects/02-el-house/1.png"),
           galleryItems: [
-            {image: require("../assets/projects/09-golden-hour/2.jpg")},
-            {image: require("../assets/projects/09-golden-hour/3.jpg")},
-            {image: require("../assets/projects/09-golden-hour/4.jpg")},
-            {image: require("../assets/projects/09-golden-hour/5.jpg")},
-            {image: require("../assets/projects/09-golden-hour/6.jpg")},
-            {image: require("../assets/projects/09-golden-hour/7.jpg")},
-            {image: require("../assets/projects/09-golden-hour/8.jpg")},
-            {image: require("../assets/projects/09-golden-hour/9.jpg")},
-            {image: require("../assets/projects/09-golden-hour/10.jpg")}
+            {image: require("../assets/projects/02-el-house/1.png")},
+            {image: require("../assets/projects/02-el-house/2.png")},
+            {image: require("../assets/projects/02-el-house/3.png")},
+            {image: require("../assets/projects/02-el-house/4.png")},
+            {image: require("../assets/projects/02-el-house/5.png")},
+            {image: require("../assets/projects/02-el-house/6.png")},
+            {image: require("../assets/projects/02-el-house/7.png")},
+            {image: require("../assets/projects/02-el-house/8.png")},
+            {image: require("../assets/projects/02-el-house/9.png")},
+            {image: require("../assets/projects/02-el-house/10.png")},
+            {image: require("../assets/projects/02-el-house/11.png")},
+            {image: require("../assets/projects/02-el-house/12.png")},
+            {image: require("../assets/projects/02-el-house/13.png")},
+            {image: require("../assets/projects/02-el-house/14.png")},
+            {image: require("../assets/projects/02-el-house/15.png")},
           ]
         },
-        {
-          title: "AY House",
-          subtitle: "שיפוץ מלא לבית פרטי",
-          description: "סגנון מודרני תעשייתי",
-          location: '-נס ציונה-',
 
-          imgSrc: require("../assets/projects/05-ay-house/1.png"),
-          galleryItems: [
-            {image: require("../assets/projects/05-ay-house/1.png")},
-            {image: require("../assets/projects/05-ay-house/2.png")},
-            {image: require("../assets/projects/05-ay-house/3.jpg")},
-            {image: require("../assets/projects/05-ay-house/4.png")},
-            {image: require("../assets/projects/05-ay-house/4A.png")},
-            {image: require("../assets/projects/05-ay-house/5.png")},
-            {image: require("../assets/projects/05-ay-house/6.png")},
-            {image: require("../assets/projects/05-ay-house/7.png")},
-            {image: require("../assets/projects/05-ay-house/8.jpg")},
-            {image: require("../assets/projects/05-ay-house/9.png")},
-            {image: require("../assets/projects/05-ay-house/10.jpg")},
-            {image: require("../assets/projects/05-ay-house/11.png")},
-            {image: require("../assets/projects/05-ay-house/12.png")},
-          ]
-        },
         {
           title: "TS Apartment",
           subtitle: "עיצוב פנים מלא לדירת 5 חדרים",
           description: "50 גוונים של אפור",
-          location: '-הרצליה-',
+          location: '-הרצליה הירוקה-',
 
           imgSrc: require("../assets/projects/06-ts-apartment/1.jpg"),
           galleryItems: [
@@ -177,6 +158,61 @@ export default {
             {image: require("../assets/projects/06-ts-apartment/18.jpg")},
             {image: require("../assets/projects/06-ts-apartment/19.jpg")},
             {image: require("../assets/projects/06-ts-apartment/20.jpg")},
+          ]
+        },
+
+        {
+          title: "RI Luxury Bedroom",
+          subtitle: 'שיפוץ מלא לבית פרטי',
+          description: "חדר שינה מאסטר כמו בית מלון",
+          location: '-חולון-',
+
+          imgSrc: require("../assets/projects/13-ri-bedroom/1.jpg"),
+          galleryItems: [
+            {image: require("../assets/projects/13-ri-bedroom/1.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/2.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/3.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/4.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/5.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/6.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/7.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/8.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/9.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/10.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/11.jpg")},
+            {image: require("../assets/projects/13-ri-bedroom/13.jpg")}
+          ]
+        },
+        {
+          title: "IC house",
+          subtitle: 'שיפוץ מלא לבית פרטי',
+          description: "טבעי מינימליסטי",
+          location: '-נס ציונה-',
+
+          imgSrc: require("../assets/projects/11-ic-house/1-.jpg"),
+          galleryItems: [
+            {image: require("../assets/projects/11-ic-house/1-.jpg")},
+            {image: require("../assets/projects/11-ic-house/2-.png")},
+            {image: require("../assets/projects/11-ic-house/3.png")},
+            {image: require("../assets/projects/11-ic-house/4.jpg")},
+          ]
+        },
+        {
+          title: "Golden Hour",
+          subtitle: "עיצוב פנים דירת 6 חדרים",
+          description: 'דירה על הים עיתוב בהשראת ״שעת הזהב״',
+          location: '-ראשון לציון-',
+          imgSrc: require("../assets/projects/09-golden-hour/1.jpg"),
+          galleryItems: [
+            {image: require("../assets/projects/09-golden-hour/2.jpg")},
+            {image: require("../assets/projects/09-golden-hour/3.jpg")},
+            {image: require("../assets/projects/09-golden-hour/4.jpg")},
+            {image: require("../assets/projects/09-golden-hour/5.jpg")},
+            {image: require("../assets/projects/09-golden-hour/6.jpg")},
+            {image: require("../assets/projects/09-golden-hour/7.jpg")},
+            {image: require("../assets/projects/09-golden-hour/8.jpg")},
+            {image: require("../assets/projects/09-golden-hour/9.jpg")},
+            {image: require("../assets/projects/09-golden-hour/10.jpg")}
           ]
         },
         {
@@ -213,6 +249,29 @@ export default {
             {image: require("../assets/projects/07-midtown/21.jpg")},
             {image: require("../assets/projects/07-midtown/22.jpg")},
             {image: require("../assets/projects/07-midtown/23.jpg")},
+          ]
+        },
+        {
+          title: "AY House",
+          subtitle: "שיפוץ מלא לבית פרטי",
+          description: "סגנון מודרני תעשייתי",
+          location: '-נס ציונה-',
+
+          imgSrc: require("../assets/projects/05-ay-house/1.png"),
+          galleryItems: [
+            {image: require("../assets/projects/05-ay-house/1.png")},
+            {image: require("../assets/projects/05-ay-house/2.png")},
+            {image: require("../assets/projects/05-ay-house/3.jpg")},
+            {image: require("../assets/projects/05-ay-house/4.png")},
+            {image: require("../assets/projects/05-ay-house/4A.png")},
+            {image: require("../assets/projects/05-ay-house/5.png")},
+            {image: require("../assets/projects/05-ay-house/6.png")},
+            {image: require("../assets/projects/05-ay-house/7.png")},
+            {image: require("../assets/projects/05-ay-house/8.jpg")},
+            {image: require("../assets/projects/05-ay-house/9.png")},
+            {image: require("../assets/projects/05-ay-house/10.jpg")},
+            {image: require("../assets/projects/05-ay-house/11.png")},
+            {image: require("../assets/projects/05-ay-house/12.png")},
           ]
         },
         {
