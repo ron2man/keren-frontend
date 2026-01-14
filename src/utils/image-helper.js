@@ -1,10 +1,15 @@
-import imageMap from './image-map.json';
+let imageMap = {};
+try {
+  imageMap = require('./image-map.json');
+} catch (e) {
+  console.warn('image-map.json not found or invalid, using original images');
+}
 
 export function getResponsiveImageSrc(originalPath, size = 'medium') {
   const normalizedPath = originalPath.replace(/\\/g, '/');
   const imageData = imageMap[normalizedPath];
   
-  if (!imageData) {
+  if (!imageData || !imageData[size]) {
     return originalPath;
   }
   
@@ -31,6 +36,11 @@ export function getImageSrcSet(originalPath) {
   }
   
   return srcset.length > 0 ? srcset.join(', ') : null;
+}
+
+export function hasOptimizedImages(originalPath) {
+  const normalizedPath = originalPath.replace(/\\/g, '/');
+  return !!imageMap[normalizedPath];
 }
 
 export function getPictureSources(originalPath) {

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest ../backend/public",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../backend/public",
+    "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../backend/public",
     "lint": "vue-cli-service lint",
     "images:webp": "node scripts/convert-to-webp.js",
     "images:responsive": "node scripts/generate-responsive-images.js",
