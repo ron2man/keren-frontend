@@ -5,7 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --dest ../backend/public",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "images:webp": "node scripts/convert-to-webp.js",
+    "images:responsive": "node scripts/generate-responsive-images.js",
+    "images:optimize": "npm run images:webp && npm run images:responsive"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -26,6 +29,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "sharp": "^0.33.5",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

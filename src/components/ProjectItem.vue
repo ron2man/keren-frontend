@@ -1,6 +1,13 @@
 <template>
   <div class="project-item flex column text-center">
-    <img :src="imgSrc" :alt="title" loading="lazy" :width="350" :height="250">
+    <ResponsiveImage 
+      :src="imgSrc" 
+      :alt="title" 
+      size="thumbnail"
+      loading="lazy" 
+      :width="350" 
+      :height="250"
+    />
     <h4 class="title">{{ title }}</h4>
     <h5 class="subtitle">{{subtitle}}</h5>
     <h6 class="description">{{ description }}</h6>
@@ -9,8 +16,13 @@
 </template>
 
 <script>
+import ResponsiveImage from './ResponsiveImage.vue'
+
 export default {
   name: "ProjectItem",
+  components: {
+    ResponsiveImage
+  },
   props: {
     imgSrc: {
       type: String,

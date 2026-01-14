@@ -1,0 +1,827 @@
+{
+  "01-t-house/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/1_large.webp"
+  },
+  "01-t-house/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/2_large.webp"
+  },
+  "01-t-house/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/3_large.webp"
+  },
+  "01-t-house/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/4_large.webp"
+  },
+  "01-t-house/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/5_large.webp"
+  },
+  "01-t-house/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/6_large.webp"
+  },
+  "01-t-house/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/7_large.webp"
+  },
+  "01-t-house/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/01-t-house/8_large.webp"
+  },
+  "02-el-house/1.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/1_large.webp"
+  },
+  "02-el-house/10.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/10_large.webp"
+  },
+  "02-el-house/11.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/11_large.webp"
+  },
+  "02-el-house/12.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/12_large.webp"
+  },
+  "02-el-house/13.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/13_large.webp"
+  },
+  "02-el-house/14.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/14_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/14_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/14_large.webp"
+  },
+  "02-el-house/15.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/15_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/15_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/15_large.webp"
+  },
+  "02-el-house/2.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/2_large.webp"
+  },
+  "02-el-house/3.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/3_large.webp"
+  },
+  "02-el-house/4.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/4_large.webp"
+  },
+  "02-el-house/5.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/5_large.webp"
+  },
+  "02-el-house/6.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/6_large.webp"
+  },
+  "02-el-house/7.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/7_large.webp"
+  },
+  "02-el-house/8.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/8_large.webp"
+  },
+  "02-el-house/9.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/02-el-house/9_large.webp"
+  },
+  "03-zen-house/1.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/1_large.webp"
+  },
+  "03-zen-house/2.jpeg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/2_large.webp"
+  },
+  "03-zen-house/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/3_large.webp"
+  },
+  "03-zen-house/4.jpeg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/4_large.webp"
+  },
+  "03-zen-house/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/5_large.webp"
+  },
+  "03-zen-house/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/6_large.webp"
+  },
+  "03-zen-house/7.jpeg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/7_large.webp"
+  },
+  "03-zen-house/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/8_large.webp"
+  },
+  "03-zen-house/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/03-zen-house/9_large.webp"
+  },
+  "04-ag-house/1.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/1_large.webp"
+  },
+  "04-ag-house/10.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/10_large.webp"
+  },
+  "04-ag-house/11.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/11_large.webp"
+  },
+  "04-ag-house/12.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/12_large.webp"
+  },
+  "04-ag-house/13.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/13_large.webp"
+  },
+  "04-ag-house/14.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/14_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/14_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/14_large.webp"
+  },
+  "04-ag-house/15.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/15_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/15_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/15_large.webp"
+  },
+  "04-ag-house/2.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/2_large.webp"
+  },
+  "04-ag-house/3.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/3_large.webp"
+  },
+  "04-ag-house/4.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/4_large.webp"
+  },
+  "04-ag-house/5.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/5_large.webp"
+  },
+  "04-ag-house/6.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/6_large.webp"
+  },
+  "04-ag-house/7.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/7_large.webp"
+  },
+  "04-ag-house/8.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/8_large.webp"
+  },
+  "04-ag-house/9.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/04-ag-house/9_large.webp"
+  },
+  "05-ay-house/1.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/1_large.webp"
+  },
+  "05-ay-house/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/10_large.webp"
+  },
+  "05-ay-house/11.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/11_large.webp"
+  },
+  "05-ay-house/12.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/12_large.webp"
+  },
+  "05-ay-house/2.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/2_large.webp"
+  },
+  "05-ay-house/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/3_large.webp"
+  },
+  "05-ay-house/4.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4_large.webp"
+  },
+  "05-ay-house/4A.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4A_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4A_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/4A_large.webp"
+  },
+  "05-ay-house/5.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/5_large.webp"
+  },
+  "05-ay-house/6.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/6_large.webp"
+  },
+  "05-ay-house/7.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/7_large.webp"
+  },
+  "05-ay-house/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/8_large.webp"
+  },
+  "05-ay-house/9.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/05-ay-house/9_large.webp"
+  },
+  "06-ts-apartment/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/1_large.webp"
+  },
+  "06-ts-apartment/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/10_large.webp"
+  },
+  "06-ts-apartment/11.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/11_large.webp"
+  },
+  "06-ts-apartment/12.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/12_large.webp"
+  },
+  "06-ts-apartment/13.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/13_large.webp"
+  },
+  "06-ts-apartment/14.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/14_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/14_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/14_large.webp"
+  },
+  "06-ts-apartment/16.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/16_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/16_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/16_large.webp"
+  },
+  "06-ts-apartment/17.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/17_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/17_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/17_large.webp"
+  },
+  "06-ts-apartment/18.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/18_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/18_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/18_large.webp"
+  },
+  "06-ts-apartment/19.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/19_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/19_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/19_large.webp"
+  },
+  "06-ts-apartment/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/2_large.webp"
+  },
+  "06-ts-apartment/20.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/20_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/20_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/20_large.webp"
+  },
+  "06-ts-apartment/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/3_large.webp"
+  },
+  "06-ts-apartment/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/4_large.webp"
+  },
+  "06-ts-apartment/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/5_large.webp"
+  },
+  "06-ts-apartment/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/6_large.webp"
+  },
+  "06-ts-apartment/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/7_large.webp"
+  },
+  "06-ts-apartment/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/8_large.webp"
+  },
+  "06-ts-apartment/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/06-ts-apartment/9_large.webp"
+  },
+  "07-midtown/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/1_large.webp"
+  },
+  "07-midtown/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/10_large.webp"
+  },
+  "07-midtown/11.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11_large.webp"
+  },
+  "07-midtown/11B.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11B_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11B_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/11B_large.webp"
+  },
+  "07-midtown/12.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/12_large.webp"
+  },
+  "07-midtown/13.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/13_large.webp"
+  },
+  "07-midtown/14.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/14_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/14_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/14_large.webp"
+  },
+  "07-midtown/15.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/15_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/15_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/15_large.webp"
+  },
+  "07-midtown/16.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/16_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/16_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/16_large.webp"
+  },
+  "07-midtown/17.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/17_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/17_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/17_large.webp"
+  },
+  "07-midtown/18.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/18_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/18_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/18_large.webp"
+  },
+  "07-midtown/19.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/19_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/19_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/19_large.webp"
+  },
+  "07-midtown/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/2_large.webp"
+  },
+  "07-midtown/20.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/20_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/20_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/20_large.webp"
+  },
+  "07-midtown/21.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/21_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/21_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/21_large.webp"
+  },
+  "07-midtown/22.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/22_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/22_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/22_large.webp"
+  },
+  "07-midtown/23.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/23_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/23_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/23_large.webp"
+  },
+  "07-midtown/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/3_large.webp"
+  },
+  "07-midtown/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/4_large.webp"
+  },
+  "07-midtown/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/5_large.webp"
+  },
+  "07-midtown/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/6_large.webp"
+  },
+  "07-midtown/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7_large.webp"
+  },
+  "07-midtown/7B.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7B_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7B_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/7B_large.webp"
+  },
+  "07-midtown/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8_large.webp"
+  },
+  "07-midtown/8B.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8B_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8B_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/8B_large.webp"
+  },
+  "07-midtown/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/07-midtown/9_large.webp"
+  },
+  "08-beyond-minds/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/1_large.webp"
+  },
+  "08-beyond-minds/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/10_large.webp"
+  },
+  "08-beyond-minds/11.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/11_large.webp"
+  },
+  "08-beyond-minds/12.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/12_large.webp"
+  },
+  "08-beyond-minds/13.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/13_large.webp"
+  },
+  "08-beyond-minds/14.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/14_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/14_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/14_large.webp"
+  },
+  "08-beyond-minds/15.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/15_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/15_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/15_large.webp"
+  },
+  "08-beyond-minds/16.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/16_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/16_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/16_large.webp"
+  },
+  "08-beyond-minds/17.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/17_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/17_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/17_large.webp"
+  },
+  "08-beyond-minds/18.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/18_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/18_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/18_large.webp"
+  },
+  "08-beyond-minds/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/2_large.webp"
+  },
+  "08-beyond-minds/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/3_large.webp"
+  },
+  "08-beyond-minds/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/4_large.webp"
+  },
+  "08-beyond-minds/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/5_large.webp"
+  },
+  "08-beyond-minds/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/6_large.webp"
+  },
+  "08-beyond-minds/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/7_large.webp"
+  },
+  "08-beyond-minds/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/8_large.webp"
+  },
+  "08-beyond-minds/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/08-beyond-minds/9_large.webp"
+  },
+  "09-golden-hour/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/1_large.webp"
+  },
+  "09-golden-hour/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/10_large.webp"
+  },
+  "09-golden-hour/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/2_large.webp"
+  },
+  "09-golden-hour/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/3_large.webp"
+  },
+  "09-golden-hour/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/4_large.webp"
+  },
+  "09-golden-hour/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/5_large.webp"
+  },
+  "09-golden-hour/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/6_large.webp"
+  },
+  "09-golden-hour/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/7_large.webp"
+  },
+  "09-golden-hour/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/8_large.webp"
+  },
+  "09-golden-hour/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/09-golden-hour/9_large.webp"
+  },
+  "10-R-house/1.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/1_large.webp"
+  },
+  "10-R-house/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_large.webp"
+  },
+  "10-R-house/10.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/10_large.webp"
+  },
+  "10-R-house/11.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/11_large.webp"
+  },
+  "10-R-house/12.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/12_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/12_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/12_large.webp"
+  },
+  "10-R-house/2.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/2_large.webp"
+  },
+  "10-R-house/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/3_large.webp"
+  },
+  "10-R-house/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/4_large.webp"
+  },
+  "10-R-house/5.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/5_large.webp"
+  },
+  "10-R-house/6.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/6_large.webp"
+  },
+  "10-R-house/7.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/7_large.webp"
+  },
+  "10-R-house/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/8_large.webp"
+  },
+  "10-R-house/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/10-R-house/9_large.webp"
+  },
+  "11-ic-house/1-.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/1-_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/1-_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/1-_large.webp"
+  },
+  "11-ic-house/2-.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/2-_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/2-_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/2-_large.webp"
+  },
+  "11-ic-house/3.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/3_large.webp"
+  },
+  "11-ic-house/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/11-ic-house/4_large.webp"
+  },
+  "12-kitchen/21.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/21_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/21_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/21_large.webp"
+  },
+  "12-kitchen/3.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/3_large.webp"
+  },
+  "12-kitchen/B5.png": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/B5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/B5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/12-kitchen/B5_large.webp"
+  },
+  "13-ri-bedroom/1.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/1_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/1_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/1_large.webp"
+  },
+  "13-ri-bedroom/10.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/10_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/10_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/10_large.webp"
+  },
+  "13-ri-bedroom/11.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/11_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/11_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/11_large.webp"
+  },
+  "13-ri-bedroom/13.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/13_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/13_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/13_large.webp"
+  },
+  "13-ri-bedroom/2.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/2_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/2_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/2_large.webp"
+  },
+  "13-ri-bedroom/3.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/3_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/3_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/3_large.webp"
+  },
+  "13-ri-bedroom/4.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/4_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/4_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/4_large.webp"
+  },
+  "13-ri-bedroom/5.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/5_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/5_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/5_large.webp"
+  },
+  "13-ri-bedroom/6.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/6_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/6_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/6_large.webp"
+  },
+  "13-ri-bedroom/7.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/7_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/7_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/7_large.webp"
+  },
+  "13-ri-bedroom/8.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/8_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/8_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/8_large.webp"
+  },
+  "13-ri-bedroom/9.jpg": {
+    "thumbnail": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/9_thumb.webp",
+    "medium": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/9_medium.webp",
+    "large": "/Users/ronshtaiman/projects/kl-architects.co.il/backend/public/img/13-ri-bedroom/9_large.webp"
+  }
+}
