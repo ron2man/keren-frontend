@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Homepage',
     component: () => import(/* webpackChunkName: "home" */ '@/views/Homepage.vue')
   },
   {
@@ -38,7 +38,8 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  if (to.path === from.path) {
+  const isInitialNavigation = from.name === null
+  if (!isInitialNavigation && to.path === from.path) {
     next(false)
   } else {
     next()

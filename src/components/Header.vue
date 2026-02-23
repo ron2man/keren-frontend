@@ -1,16 +1,16 @@
 <template>
   <header class="flex justify-between width100 align-center">
-    <div class="logo-container flex justify-center align-center pointer" v-on:click="goHome">
-      <img class="logo" src="@/assets/keren-leizarovich.png" alt="KL logo" />
-      <h1 class="title">
+    <a class="logo-container flex justify-center align-center" @click.prevent="goHome" href="/" :aria-label="'קרן ליזרוביץ - עמוד הבית'">
+      <img class="logo" src="@/assets/keren-leizarovich.png" alt="" aria-hidden="true" />
+      <span class="title" aria-hidden="true">
         קרן ליזרוביץ
         <span>אדריכלות ועיצוב פנים</span>
-      </h1>
-    </div>
+      </span>
+    </a>
     <Menu class="menu" />
-    <div class="icons flex justify-center align-center">
-      <div v-for="(icon,index) in icons" :key="index" class="icon-container flex justify-center align-center">
-        <a :href="icon.link" target="_blank">
+    <div class="icons flex justify-center align-center" role="list">
+      <div v-for="(icon,index) in icons" :key="index" class="icon-container flex justify-center align-center" role="listitem">
+        <a :href="icon.link" :target="icon.external ? '_blank' : '_self'" :rel="icon.external ? 'noopener noreferrer' : undefined" :aria-label="icon.label">
           <i :class="icon.path" aria-hidden="true"></i>
         </a>
       </div>
@@ -27,27 +27,17 @@ export default {
   data: function() {
     return {
       icons: [
-        { path: "fa fa-phone", link: "tel:+972548166025" },
-        {
-          path: "fa fa-facebook",
-          link: "https://www.facebook.com/keren.leizarovitch"
-        },
-        {
-          path: "fa fa-instagram",
-          link: "https://www.instagram.com/keren.lei__architect/"
-        },
-        {
-          path: "fa fa-whatsapp",
-          link:
-            "https://api.whatsapp.com/send?phone=972548166025&text=Let's%20start%20a%20new%20project"
-        },
-        { path: "fa fa-envelope-o", link: "mailto:kerenleizarovitch@gmail.com" }
+        { path: "fa fa-phone", link: "tel:+972548166025", label: "התקשר אלינו", external: false },
+        { path: "fa fa-facebook", link: "https://www.facebook.com/keren.leizarovitch", label: "פייסבוק - נפתח בחלון חדש", external: true },
+        { path: "fa fa-instagram", link: "https://www.instagram.com/keren.lei__architect/", label: "אינסטגרם - נפתח בחלון חדש", external: true },
+        { path: "fa fa-whatsapp", link: "https://api.whatsapp.com/send?phone=972548166025&text=Let's%20start%20a%20new%20project", label: "וואטסאפ - נפתח בחלון חדש", external: true },
+        { path: "fa fa-envelope-o", link: "mailto:kerenleizarovitch@gmail.com", label: "שלח אימייל", external: false }
       ]
     };
   },
   methods: {
     goHome() {
-      this.$router.push("/");
+      this.$router.push("/").catch(() => {});
     }
   }
 };
@@ -63,14 +53,15 @@ header {
     padding: 0 30px;
     width: unset;
   }
-  .logo-container {
+  a.logo-container {
     padding: 15px 0;
+    text-decoration: none;
     .logo {
       max-height: 50px;
     }
     .title {
       user-select: none;
-      font-size: 16x;
+      font-size: 16px;
       line-height: 18px;
       letter-spacing: 4px;
       font-weight: 600;

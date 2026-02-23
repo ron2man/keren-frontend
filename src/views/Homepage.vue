@@ -8,10 +8,11 @@
 import Slider from "@/components/Slider.vue";
 
 export default {
-  components: { Slider }
+  components: { Slider },
+  created() {
+    console.log("Homepage created");
+  },
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>>
+<style lang="scss" scoped></style>>

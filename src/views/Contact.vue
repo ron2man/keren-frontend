@@ -9,37 +9,41 @@
         <div class="content text-center">
           <h5 class="subtitle" v-if="!emailSent">צרו קשר</h5>
           <h3 class="title" v-if="!emailSent">בואו נתחיל פרויקט יחד</h3>
-          <form @submit="sendForm" v-if="!emailSent">
+          <form @submit="sendForm" v-if="!emailSent" novalidate>
             <div class="form-field">
+              <label for="contact-email" class="visually-hidden">כתובת אימייל</label>
               <input
+                id="contact-email"
                 type="email"
                 v-model="emailData.email"
                 placeholder="אימייל"
-                data-reqmsg="This field cannot be blank."
-                data-invmsg="Email Address is invalid"
+                autocomplete="email"
+                required
               />
             </div>
             <div class="form-field">
+              <label for="contact-name" class="visually-hidden">שם מלא</label>
               <input
+                id="contact-name"
                 type="text"
                 v-model="emailData.name"
-                value
                 placeholder="שם מלא"
-                data-reqmsg="This field cannot be blank."
-                data-invmsg="Email Address is invalid"
+                autocomplete="name"
+                required
               />
             </div>
             <div class="form-field">
+              <label for="contact-message" class="visually-hidden">הודעה</label>
               <textarea
+                id="contact-message"
                 v-model="emailData.msg"
-                id="field_epfhm2"
                 rows="5"
                 placeholder="הודעה"
-                data-invmsg="Your Message is invalid"
+                required
               ></textarea>
             </div>
             <div class="form-submit">
-              <input type="submit" value="שליחה" />
+              <input type="submit" value="שליחה" aria-label="שלח את הטופס" />
             </div>
           </form>
           <div class="mail-sent-successfully" v-if="emailSent">
@@ -48,6 +52,9 @@
               אני מעריכה שיצרת איתי קשר. אחזור אליך בהקדם <br>
               יום טוב, קרן
             </h5>
+          </div>
+          <div class="mail-send-error" v-if="sendError">
+            <h5 class="subtitle">משהו השתבש. נסו שוב או פנו אלינו ישירות</h5>
           </div>
         </div>
       </div>
@@ -59,21 +66,26 @@
 import emailService from "@/services/emailService.js";
 
 export default {
-  name: "Home",
+  name: "Contact",
   methods: {
     sendForm(e) {
       e.preventDefault();
-      let email = JSON.parse(JSON.stringify(this.emailData));
+      const email = { ...this.emailData };
       if (email.name && email.msg && email.email) {
-        emailService.sendEmail(email).then(() => {
-          this.emailSent = true;
-        });
+        emailService.sendEmail(email)
+          .then(() => {
+            this.emailSent = true;
+          })
+          .catch(() => {
+            this.sendError = true;
+          });
       }
     }
   },
   data: function() {
     return {
       emailSent: false,
+      sendError: false,
       emailData: {
         email: "",
         name: "",
@@ -85,6 +97,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .home {
   flex-direction: column;
   box-sizing: border-box;
@@ -155,7 +179,8 @@ export default {
             width: 100%;
             margin-bottom: 20px;
             &:focus {
-              outline: 0;
+              outline: 2px solid #111111;
+              outline-offset: 2px;
               background-color: #f2f2f2;
               border: none;
               border-bottom-style: solid;
@@ -173,6 +198,9 @@ export default {
             :active {
               outline-color: transparent;
             }
+          }
+          .mail-send-error .subtitle {
+            color: #c0392b;
           }
           .form-submit {
             input {

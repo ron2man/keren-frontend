@@ -1,11 +1,13 @@
 <template>
-  <div :id="'lightgallery-'+idx">
+  <div :id="'lightgallery-'+idx" role="region" :aria-label="'גלריית תמונות - ' + projectTitle">
     <a
-        :href="item.image"
-        v-for="(item, index) in loadedItems"
-        :id="(index == 0) ? `first-${idx}` : ''" :key="index"
-        style="display: none">
-      <img :src="item.image" style="display: none">
+      :href="item.image"
+      v-for="(item, index) in loadedItems"
+      :id="(index == 0) ? `first-${idx}` : ''"
+      :key="index"
+      :aria-label="projectTitle + ' - תמונה ' + (index + 1) + ' מתוך ' + loadedItems.length"
+      style="display: none">
+      <img :src="item.image" :alt="projectTitle + ' - תמונה ' + (index + 1)" style="display: none">
     </a>
   </div>
 </template>
@@ -21,6 +23,10 @@ export default {
     idx: {
       type: Number,
       required: true
+    },
+    projectTitle: {
+      type: String,
+      default: 'פרויקט'
     }
   },
   data() {
@@ -37,7 +43,7 @@ export default {
   methods: {
     loadGalleryImages() {
       const images = require.context('@/assets/projects', true, /\.(jpg|jpeg|png|gif)$/i)
-      
+
       this.loadedItems = this.galleryPaths.map(path => {
         const imagePath = `./${path.replace('projects/', '')}`
         try {
@@ -50,12 +56,12 @@ export default {
     },
     async loadLightGallery() {
       if (this.lightGalleryLoaded) return
-      
+
       await Promise.all([
         import('lightgallery.js'),
         import('lightgallery.js/dist/css/lightgallery.css')
       ])
-      
+
       this.lightGalleryLoaded = true
     },
     initGallery() {
@@ -75,6 +81,12 @@ export default {
           }
         }
       })
+    }
+  },
+  beforeDestroy() {
+    const el = document.getElementById(`lightgallery-${this.idx}`)
+    if (el && el.___lightGallery) {
+      el.___lightGallery.destroy(true)
     }
   }
 }

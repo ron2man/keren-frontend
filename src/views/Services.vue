@@ -16,8 +16,9 @@
       <div class="item item1">
         <img
           src="https://icon-library.com/images/interior-design-icon/interior-design-icon-18.jpg"
-          alt
+          alt="אייקון ייעוץ"
           width="100"
+          height="100"
         />
         <h3 class="services-item-title">ייעוץ</h3>
         <div class="services-item-description">
@@ -34,8 +35,9 @@
       <div class="item item2">
         <img
           src="https://icon-library.com/images/interior-design-icon/interior-design-icon-18.jpg"
-          alt
+          alt="אייקון עיצוב חוץ"
           width="100"
+          height="100"
         />
         <h3 class="services-item-title">Exterior</h3>
         <div class="services-item-description">
@@ -53,8 +55,9 @@
       <div class="item item3">
         <img
           src="https://icon-library.com/images/interior-design-icon/interior-design-icon-18.jpg"
-          alt
+          alt="אייקון עיצוב חוץ 1"
           width="100"
+          height="100"
         />
         <h3 class="services-item-title">Exterior1</h3>
         <div class="services-item-description">
@@ -72,8 +75,9 @@
       <div class="item item4">
         <img
           src="https://icon-library.com/images/interior-design-icon/interior-design-icon-18.jpg"
-          alt
+          alt="אייקון עיצוב חוץ 2"
           width="100"
+          height="100"
         />
         <h3 class="services-item-title">Exterior2</h3>
         <div class="services-item-description">
@@ -91,8 +95,9 @@
       <div class="item item5">
         <img
           src="https://icon-library.com/images/interior-design-icon/interior-design-icon-18.jpg"
-          alt
+          alt="אייקון עיצוב חוץ 3"
           width="100"
+          height="100"
         />
         <h3 class="services-item-title">Exterior3</h3>
         <div class="services-item-description">

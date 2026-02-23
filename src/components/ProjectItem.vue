@@ -8,10 +8,10 @@
       :width="350" 
       :height="250"
     />
-    <h4 class="title">{{ title }}</h4>
-    <h5 class="subtitle">{{subtitle}}</h5>
-    <h6 class="description">{{ description }}</h6>
-    <div class="location">{{ location }}</div>
+    <h3 class="title">{{ title }}</h3>
+    <p class="subtitle">{{ subtitle }}</p>
+    <p class="description">{{ description }}</p>
+    <p class="location">{{ location }}</p>
   </div>
 </template>
 
@@ -54,24 +54,28 @@ export default {
     height: 250px;
     object-fit: cover;
   }
-  .title{
+  .title {
     padding-top: 17px;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    margin: 0;
   }
-  .subtitle{
+  .subtitle {
     font-size: 16px;
     padding-bottom: 8px;
+    margin: 0;
   }
-  .description{
+  .description {
     font-size: 16px;
     padding-bottom: 6px;
     font-weight: 400;
+    margin: 0;
   }
-  .location{
+  .location {
     font-size: 14px;
     font-weight: 300;
+    margin: 0;
   }
 }
 </style>

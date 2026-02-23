@@ -1,7 +1,10 @@
 <template>
   <div id="app" class="flex column height100">
+    <a href="#main-content" class="skip-link">דלג לתוכן הראשי</a>
     <Header/>
-    <router-view class="main-view" />
+    <main id="main-content" class="flex column grow1">
+      <router-view class="main-view" />
+    </main>
     <Menu class="menu-bottom width100"/>
   </div>
 </template>
@@ -19,6 +22,21 @@ export default {
 </script>
 
 <style lang="scss">
+.skip-link {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  z-index: 9999;
+  text-decoration: none;
+  &:focus {
+    top: 0;
+  }
+}
+
 #app {
   direction: rtl;
   font-family: var(--primary-font);

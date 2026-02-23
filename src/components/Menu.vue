@@ -1,7 +1,13 @@
 <template>
-  <ul class="items flex justify-center">
-    <li class="item pointer" v-for="(item, idx) in menuItems" :key="idx" @click="onItemClick(item.route)">{{item.label}}</li>
-  </ul>
+  <nav aria-label="ניווט ראשי">
+    <ul class="items flex justify-center" role="list">
+      <li class="item" v-for="(item, idx) in menuItems" :key="idx" role="listitem">
+        <a :href="item.route" @click.prevent="onItemClick(item.route)" :aria-current="isActive(item.route) ? 'page' : undefined">
+          {{ item.label }}
+        </a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -10,28 +16,46 @@ export default {
   data: function () {
     return {
       menuItems: [
-        {label: 'אודות', route: '/about'},
-        {label: 'פרויקטים', route: '/projects'},
-        {label: 'צור קשר', route: '/contact'},
+        { label: 'אודות', route: '/about' },
+        { label: 'פרויקטים', route: '/projects' },
+        { label: 'צור קשר', route: '/contact' },
       ]
     }
   },
   methods: {
     onItemClick(route) {
       this.$router.push(route);
+    },
+    isActive(route) {
+      return this.$route && this.$route.path === route;
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.items{
+.items {
   box-sizing: border-box;
-  .item{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .item {
     padding: 0 15px;
-    transition: 0.3s color;
-    &:hover{
-      color: gray;
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: 0.3s color;
+      display: block;
+      padding: 8px 0;
+      &:hover,
+      &:focus {
+        color: gray;
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+      }
+      &[aria-current="page"] {
+        font-weight: 600;
+      }
     }
   }
 }
