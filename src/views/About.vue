@@ -1,5 +1,5 @@
 <template>
-  <div class="about-studio page flex grow1 column">
+  <div class="about-studio page flex grow1">
     <div class="image"></div>
     <div class="text">
       <h2>אודות</h2>
@@ -118,6 +118,7 @@ export default {
 <style lang="scss" scoped>
 .about-studio{
   display: flex;
+  flex-direction: column;
   @media (min-width: 768px) {
     flex-direction: row;
   }
