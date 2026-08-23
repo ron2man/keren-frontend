@@ -16,6 +16,7 @@ export default {
   data: function () {
     return {
       menuItems: [
+        { label: 'ראשי', route: '/' },
         { label: 'אודות', route: '/about' },
         { label: 'פרויקטים', route: '/projects' },
         { label: 'צור קשר', route: '/contact' },
