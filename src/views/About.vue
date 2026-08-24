@@ -2,7 +2,7 @@
   <div class="about-studio page flex grow1">
     <div class="image"></div>
     <div class="text">
-      <h2>אודות</h2>
+      <h1>אודות</h1>
       <p>
         תחילת דרכי היתה אי שם בגיל 5, כשהסתובבתי בתוך בתים שהיו בבנייה ודמיינתי מה יהיה בכל חלל.
       </p>
@@ -84,9 +84,31 @@
 
 <script>
 // import HalfTextHalfImage from "@/components/HalfTextHalfImage.vue";
+import { injectJsonLd, removeJsonLd } from "@/utils/structured-data";
+
 export default {
   components: {
     // HalfTextHalfImage
+  },
+  mounted() {
+    injectJsonLd('ld-person', {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "קרן ליזרוביץ",
+      "jobTitle": "אדריכלית",
+      "url": "https://www.kl-architects.co.il/about",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "קרן ליזרוביץ - אדריכלות ועיצוב פנים"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Technion - Israel Institute of Technology" },
+        { "@type": "CollegeOrUniversity", "name": "Politecnico di Milano" }
+      ]
+    });
+  },
+  beforeDestroy() {
+    removeJsonLd('ld-person');
   },
   data: function(){
     return {
@@ -146,7 +168,7 @@ export default {
       padding: 30px;
     }
 
-    h2{
+    h1, h2{
       margin-bottom: 10px;
       letter-spacing: 0.9px;
       font-size: 40px;
@@ -154,8 +176,13 @@ export default {
     }
     p {
       font-size: 16px;
-      line-height: 20px;
       font-weight: 400;
+      max-width: 46ch;
+      line-height: 1.7;
+      margin-left: auto;
+      margin-right: 0;
+      margin-bottom: 14px;
+      text-align: right;
     }
     .break{
       margin-bottom: 50px;

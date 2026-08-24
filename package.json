@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../backend/public",
-    "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../backend/public",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../kl-architects/public",
+    "build:legacy": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build --dest ../kl-architects/public",
     "lint": "vue-cli-service lint",
     "images:webp": "node scripts/convert-to-webp.js",
     "images:responsive": "node scripts/generate-responsive-images.js",

@@ -12,11 +12,28 @@
 <script>
 import Header from "@/components/Header.vue";
 import Menu from "@/components/Menu";
+import { injectJsonLd } from "@/utils/structured-data";
 
 export default {
   components: {
     Menu,
     Header
+  },
+  mounted() {
+    injectJsonLd('ld-local-business', {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "קרן ליזרוביץ - אדריכלות ועיצוב פנים",
+      "image": "https://www.kl-architects.co.il/img/og-cover.jpg",
+      "url": "https://www.kl-architects.co.il",
+      "telephone": "+972548166025",
+      "email": "kerenleizarovitch@gmail.com",
+      "areaServed": "IL",
+      "sameAs": [
+        "https://www.facebook.com/keren.leizarovitch",
+        "https://www.instagram.com/keren.lei__architect/"
+      ]
+    });
   }
 };
 </script>

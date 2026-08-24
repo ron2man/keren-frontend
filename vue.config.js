@@ -1,6 +1,18 @@
+const path = require('path')
+
 module.exports = {
   transpileDependencies: [],
   productionSourceMap: false,
+  devServer: {
+    // scripts/generate-responsive-images.js writes optimized images into the
+    // sibling deploy repo (../kl-architects/public/img) to match the
+    // production build's --dest — webpack-dev-server has no knowledge of
+    // that directory otherwise, so ResponsiveImage-based images (homepage
+    // hero, project thumbnails) would 404 under `npm run serve` without
+    // this. This is additive: it doesn't affect how this project's own
+    // public/ folder is served.
+    contentBase: [path.resolve(__dirname, '../kl-architects/public')]
+  },
   configureWebpack: {
     optimization: {
       usedExports: true,
@@ -35,6 +47,8 @@ module.exports = {
     }
   },
   chainWebpack: config => {
+    config.module.rule('images').test(/\.(png|jpe?g|gif|webp)(\?.*)?$/i)
+
     config.optimization.minimize(true)
     
     config.plugin('html').tap(args => {
