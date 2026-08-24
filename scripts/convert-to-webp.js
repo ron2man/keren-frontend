@@ -2,8 +2,10 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const PROJECTS_DIR = path.join(__dirname, '../src/assets/projects');
-const OUTPUT_DIR = path.join(__dirname, '../src/assets/projects');
+const SOURCE_DIRS = [
+  path.join(__dirname, '../src/assets/projects'),
+  path.join(__dirname, '../src/assets/background')
+];
 
 async function convertImageToWebP(inputPath, outputPath) {
   try {
@@ -83,22 +85,30 @@ async function processDirectory(dir) {
 }
 
 async function main() {
-  console.log('🖼️  Converting images to WebP format...\n');
-  
-  if (!fs.existsSync(PROJECTS_DIR)) {
-    console.error(`Error: Projects directory not found at ${PROJECTS_DIR}`);
-    process.exit(1);
+  console.log('Converting images to WebP format...\n');
+
+  const totals = { converted: 0, failed: 0, totalSavings: 0, totalOriginalSize: 0, totalWebpSize: 0 };
+
+  for (const sourceDir of SOURCE_DIRS) {
+    if (!fs.existsSync(sourceDir)) {
+      console.error(`Error: Source directory not found at ${sourceDir}`);
+      process.exit(1);
+    }
+    const results = await processDirectory(sourceDir);
+    totals.converted += results.converted;
+    totals.failed += results.failed;
+    totals.totalSavings += results.totalSavings;
+    totals.totalOriginalSize += results.totalOriginalSize;
+    totals.totalWebpSize += results.totalWebpSize;
   }
 
-  const results = await processDirectory(PROJECTS_DIR);
-  
-  console.log('\n📊 Conversion Summary:');
-  console.log(`  ✓ Converted: ${results.converted} images`);
-  console.log(`  ✗ Failed: ${results.failed} images`);
-  console.log(`  💾 Total size reduction: ${((results.totalSavings / results.totalOriginalSize) * 100).toFixed(1)}%`);
-  console.log(`  📦 Original total: ${(results.totalOriginalSize / 1024 / 1024).toFixed(2)} MB`);
-  console.log(`  📦 WebP total: ${(results.totalWebpSize / 1024 / 1024).toFixed(2)} MB`);
-  console.log(`  💰 Space saved: ${(results.totalSavings / 1024 / 1024).toFixed(2)} MB`);
+  console.log('\nConversion Summary:');
+  console.log(`  Converted: ${totals.converted} images`);
+  console.log(`  Failed: ${totals.failed} images`);
+  console.log(`  Total size reduction: ${((totals.totalSavings / totals.totalOriginalSize) * 100).toFixed(1)}%`);
+  console.log(`  Original total: ${(totals.totalOriginalSize / 1024 / 1024).toFixed(2)} MB`);
+  console.log(`  WebP total: ${(totals.totalWebpSize / 1024 / 1024).toFixed(2)} MB`);
+  console.log(`  Space saved: ${(totals.totalSavings / 1024 / 1024).toFixed(2)} MB`);
 }
 
 main().catch(console.error);

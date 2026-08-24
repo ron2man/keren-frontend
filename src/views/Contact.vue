@@ -2,59 +2,84 @@
   <div class="home flex">
     <div
       class="half left"
-      :style="{'background-image': `url(${require('@/assets/under-construction.jpg')})`}"
+      :style="{'background-image': `url(${require('@/assets/contact-hero.jpg')})`}"
     ></div>
     <div class="half right flex">
       <div class="form">
         <div class="content text-center">
-          <h5 class="subtitle" v-if="!emailSent">צרו קשר</h5>
-          <h3 class="title" v-if="!emailSent">בואו נתחיל פרויקט יחד</h3>
-          <form @submit="sendForm" v-if="!emailSent" novalidate>
+          <div class="contact-details">
+            <p class="contact-details-heading">ליצירת קשר:</p>
+            <p class="contact-details-line">נייד : <a href="tel:+972548166025">054-8166025</a></p>
+            <p class="contact-details-line">אימייל : <a href="mailto:kerenleizarovitch@gmail.com">kerenleizarovitch@gmail.com</a></p>
+          </div>
+          <h1 class="title" v-if="!submitted">רוצים גם להתחיל פרויקט יחד?</h1>
+          <form @submit="sendForm" v-if="!submitted" novalidate>
             <div class="form-field">
-              <label for="contact-email" class="visually-hidden">כתובת אימייל</label>
+              <label for="contact-email">
+                כתובת אימייל <span class="required-mark" aria-hidden="true">*</span><span class="visually-hidden">(שדה חובה)</span>
+              </label>
               <input
                 id="contact-email"
                 type="email"
-                v-model="emailData.email"
+                v-model="formData.email"
                 placeholder="אימייל"
                 autocomplete="email"
                 required
+                :class="{ invalid: fieldErrors.email }"
+                :aria-invalid="fieldErrors.email ? 'true' : 'false'"
               />
             </div>
             <div class="form-field">
-              <label for="contact-name" class="visually-hidden">שם מלא</label>
+              <label for="contact-name">
+                שם מלא <span class="required-mark" aria-hidden="true">*</span><span class="visually-hidden">(שדה חובה)</span>
+              </label>
               <input
                 id="contact-name"
                 type="text"
-                v-model="emailData.name"
+                v-model="formData.name"
                 placeholder="שם מלא"
                 autocomplete="name"
                 required
+                :class="{ invalid: fieldErrors.name }"
+                :aria-invalid="fieldErrors.name ? 'true' : 'false'"
               />
             </div>
             <div class="form-field">
-              <label for="contact-message" class="visually-hidden">הודעה</label>
-              <textarea
-                id="contact-message"
-                v-model="emailData.msg"
-                rows="5"
-                placeholder="הודעה"
+              <label for="contact-purpose">
+                מטרת הפרויקט ומיקום <span class="required-mark" aria-hidden="true">*</span><span class="visually-hidden">(שדה חובה)</span>
+              </label>
+              <input
+                id="contact-purpose"
+                type="text"
+                v-model="formData.purpose"
+                placeholder="מטרת הפרויקט ומיקום"
                 required
+                :class="{ invalid: fieldErrors.purpose }"
+                :aria-invalid="fieldErrors.purpose ? 'true' : 'false'"
+              />
+            </div>
+            <div class="form-field">
+              <label for="contact-free-text">טקסט חופשי</label>
+              <textarea
+                id="contact-free-text"
+                v-model="formData.freeText"
+                rows="6"
+                placeholder="לדוגמה: ספרו לנו על הפרויקט - סוג הנכס, שטח משוער, סטייל מועדף ולוחות זמנים"
               ></textarea>
             </div>
             <div class="form-submit">
-              <input type="submit" value="שליחה" aria-label="שלח את הטופס" />
+              <button type="submit" class="submit-button" aria-label="שלח את הטופס">שליחה</button>
             </div>
           </form>
-          <div class="mail-sent-successfully" v-if="emailSent">
-            <h3 class="title">תודה</h3>
+          <div class="whatsapp-sent" v-if="submitted">
+            <h1 class="title">תודה</h1>
             <h5 class="subtitle">
-              אני מעריכה שיצרת איתי קשר. אחזור אליך בהקדם <br>
-              יום טוב, קרן
+              נפתחה עבורך שיחת וואטסאפ בחלון חדש. <br>
+              לא נפתח? <a :href="whatsappUrl" target="_blank" rel="noopener noreferrer">לחצו כאן</a>
             </h5>
           </div>
-          <div class="mail-send-error" v-if="sendError">
-            <h5 class="subtitle">משהו השתבש. נסו שוב או פנו אלינו ישירות</h5>
+          <div class="form-error" v-if="validationError">
+            <p class="subtitle">אנא מלאו את השדות המסומנים באדום</p>
           </div>
         </div>
       </div>
@@ -63,35 +88,60 @@
 </template>
 
 <script>
-import emailService from "@/services/emailService.js";
+const WHATSAPP_PHONE = "972548166025";
 
 export default {
   name: "Contact",
+  data: function() {
+    return {
+      submitted: false,
+      validationError: false,
+      whatsappUrl: "",
+      fieldErrors: {
+        email: false,
+        name: false,
+        purpose: false
+      },
+      formData: {
+        email: "",
+        name: "",
+        purpose: "",
+        freeText: ""
+      }
+    };
+  },
   methods: {
     sendForm(e) {
       e.preventDefault();
-      const email = { ...this.emailData };
-      if (email.name && email.msg && email.email) {
-        emailService.sendEmail(email)
-          .then(() => {
-            this.emailSent = true;
-          })
-          .catch(() => {
-            this.sendError = true;
-          });
+      const { email, name, purpose, freeText } = this.formData;
+      const emailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+      this.fieldErrors = {
+        email: !email || !emailValid,
+        name: !name,
+        purpose: !purpose
+      };
+
+      if (this.fieldErrors.email || this.fieldErrors.name || this.fieldErrors.purpose) {
+        this.validationError = true;
+        return;
       }
+      this.validationError = false;
+
+      const lines = [
+        `שם: ${name}`,
+        `אימייל: ${email}`,
+        `מטרת הפרויקט ומיקום: ${purpose}`
+      ];
+      if (freeText) {
+        lines.push(freeText);
+      }
+      const message = lines.join("\n");
+      this.whatsappUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+
+      window.open(this.whatsappUrl, "_blank", "noopener,noreferrer");
+      this.submitted = true;
     }
-  },
-  data: function() {
-    return {
-      emailSent: false,
-      sendError: false,
-      emailData: {
-        email: "",
-        name: "",
-        msg: ""
-      }
-    };
   }
 };
 </script>
@@ -137,6 +187,29 @@ export default {
         .content {
           margin: 0 auto;
           max-width: 560px;
+          .contact-details {
+            margin-top: 32px;
+            margin-bottom: 20px;
+            .contact-details-heading {
+              font-size: 16px;
+              font-weight: 700;
+              margin: 0 0 8px;
+            }
+            .contact-details-line {
+              font-size: 16px;
+              font-weight: 300;
+              line-height: 26px;
+              margin: 0;
+              a {
+                color: inherit;
+                text-decoration: none;
+                &:hover,
+                &:focus {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
           .subtitle {
             font-size: 14px;
             line-height: 18px;
@@ -153,6 +226,19 @@ export default {
             margin-bottom: 15px;
           }
 
+          .form-field {
+            text-align: right;
+            label {
+              display: block;
+              font-size: 13px;
+              font-weight: 400;
+              color: #111;
+              margin-bottom: 6px;
+              .required-mark {
+                color: #D6402F;
+              }
+            }
+          }
           .form-field input,
           .form-field textarea {
             box-sizing: border-box;
@@ -170,7 +256,7 @@ export default {
             padding: 16px 25px;
             height: 57px;
             background-color: #f2f2f2;
-            color: rgba(17, 17, 17, 0.5);
+            color: rgba(17, 17, 17, 0.7);
             -webkit-transition: border-bottom-color 0.3s ease-in,
               color 0.3s ease-in;
             -o-transition: border-bottom-color 0.3s ease-in, color 0.3s ease-in;
@@ -178,6 +264,9 @@ export default {
             background: #f2f2f2;
             width: 100%;
             margin-bottom: 20px;
+            &::placeholder {
+              color: rgba(17, 17, 17, 0.7);
+            }
             &:focus {
               outline: 2px solid #111111;
               outline-offset: 2px;
@@ -190,6 +279,9 @@ export default {
               -webkit-box-shadow: none;
               box-shadow: none;
             }
+            &.invalid {
+              border-bottom-color: #D6402F;
+            }
           }
           .form-field textarea {
             height: 130px;
@@ -199,28 +291,35 @@ export default {
               outline-color: transparent;
             }
           }
-          .mail-send-error .subtitle {
+          .form-error .subtitle {
             color: #c0392b;
           }
           .form-submit {
-            input {
+            padding-bottom: 40px;
+            .submit-button {
+              display: inline-block;
               font-family: var(--primary-font);
-              width: 100%;
-              font-size: 11px;
+              font-size: 13px;
               line-height: 18px;
               letter-spacing: 1.5px;
               font-weight: 700;
-              background-color: transparent;
-              border: none;
-              color: #111111;
-              border-radius: 0;
-              -webkit-box-shadow: none;
-              box-shadow: none;
-              margin: 0;
-              position: relative;
-              -webkit-appearance: button;
-              cursor: pointer;
               text-transform: uppercase;
+              background-color: #D6402F;
+              color: #fff;
+              border: 2px solid #D6402F;
+              border-radius: 4px;
+              padding: 14px 32px;
+              cursor: pointer;
+              -webkit-transition: background-color 0.2s ease, color 0.2s ease;
+              transition: background-color 0.2s ease, color 0.2s ease;
+              &:hover {
+                background-color: transparent;
+                color: #D6402F;
+              }
+              &:focus {
+                outline: 2px solid #111111;
+                outline-offset: 2px;
+              }
             }
           }
         }

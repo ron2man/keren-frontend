@@ -61,10 +61,17 @@ export default {
     sizes: {
       type: String,
       default: '(max-width: 767px) 350px, (max-width: 1023px) 800px, 1200px'
+    },
+    disablePictureSources: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
     webpSources() {
+      if (this.disablePictureSources) {
+        return []
+      }
       const sources = getPictureSources(this.src)
       return sources || []
     },

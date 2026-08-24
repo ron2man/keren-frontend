@@ -7,7 +7,7 @@
       :key="index"
       :aria-label="projectTitle + ' - תמונה ' + (index + 1) + ' מתוך ' + loadedItems.length"
       style="display: none">
-      <img :src="item.image" :alt="projectTitle + ' - תמונה ' + (index + 1)" style="display: none">
+      <img :src="item.image" :alt="projectTitle + ' - תמונה ' + (index + 1)" loading="lazy" style="display: none">
     </a>
   </div>
 </template>

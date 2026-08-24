@@ -5,25 +5,39 @@ try {
   console.warn('image-map.json not found or invalid, using original images');
 }
 
+const originalAssets = require.context('@/assets', true, /^\.\/(projects|background)\/.*\.(jpg|jpeg|png)$/i);
+
+function resolveOriginalAsset(relativePath) {
+  const key = `./${relativePath}`;
+  try {
+    return originalAssets(key);
+  } catch (e) {
+    console.warn(`ResponsiveImage: could not resolve original asset for ${relativePath}`, e);
+    return '';
+  }
+}
+
 export function getResponsiveImageSrc(originalPath, size = 'medium') {
   const normalizedPath = originalPath.replace(/\\/g, '/');
   const imageData = imageMap[normalizedPath];
-  
-  if (!imageData || !imageData[size]) {
-    return originalPath;
+
+  if (imageData && imageData[size]) {
+    return imageData[size];
   }
-  
-  return imageData[size] || imageData.medium || originalPath;
+  if (imageData && imageData.medium) {
+    return imageData.medium;
+  }
+  return resolveOriginalAsset(normalizedPath);
 }
 
 export function getImageSrcSet(originalPath) {
   const normalizedPath = originalPath.replace(/\\/g, '/');
   const imageData = imageMap[normalizedPath];
-  
+
   if (!imageData) {
     return null;
   }
-  
+
   const srcset = [];
   if (imageData.thumbnail) {
     srcset.push(`${imageData.thumbnail} 350w`);
@@ -34,7 +48,7 @@ export function getImageSrcSet(originalPath) {
   if (imageData.large) {
     srcset.push(`${imageData.large} 1200w`);
   }
-  
+
   return srcset.length > 0 ? srcset.join(', ') : null;
 }
 
@@ -46,13 +60,13 @@ export function hasOptimizedImages(originalPath) {
 export function getPictureSources(originalPath) {
   const normalizedPath = originalPath.replace(/\\/g, '/');
   const imageData = imageMap[normalizedPath];
-  
+
   if (!imageData) {
     return null;
   }
-  
+
   const sources = [];
-  
+
   if (imageData.large) {
     sources.push({
       srcset: `${imageData.large} 1200w`,
@@ -60,7 +74,7 @@ export function getPictureSources(originalPath) {
       type: 'image/webp'
     });
   }
-  
+
   if (imageData.medium) {
     sources.push({
       srcset: `${imageData.medium} 800w`,
@@ -68,7 +82,7 @@ export function getPictureSources(originalPath) {
       type: 'image/webp'
     });
   }
-  
+
   if (imageData.thumbnail) {
     sources.push({
       srcset: `${imageData.thumbnail} 350w`,
@@ -76,6 +90,6 @@ export function getPictureSources(originalPath) {
       type: 'image/webp'
     });
   }
-  
+
   return sources.length > 0 ? sources : null;
 }

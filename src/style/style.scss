@@ -196,3 +196,11 @@ body,
         @media (min-width: 1200px){width: 1300px;}
     }
 }
+
+// lightgallery's counter ("1 / 8") is inherently LTR content; without this,
+// the page's global dir="rtl" causes the browser's bidi algorithm to
+// visually reverse it to "8 / 1".
+#lg-counter {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
